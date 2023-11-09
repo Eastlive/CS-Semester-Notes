@@ -68,7 +68,7 @@ $$d = \frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}$$
 | cylinder | 柱面 | 只含有xyz其中的两个变量的方程 |
 | traces | 截痕 | 与坐标轴平行的截痕 |
 | ruling | 母线 | 柱面上与坐标轴平行的直线 |
-| quadric surface | 二次曲面 | 分为两类：</br> $Ax^2+By^2+Cz^2+J=0$ </br> $Ax^2+By^2+Cz^2+Iz=0$ |
+| quadric surface | 二次曲面 | 分为两类：</br> $Ax^2+By^2+Cz^2+J=0$ </br> $Ax^2+By^2+Iz=0$ |
 | ellipsoid | 椭球面 | $Ax^2+By^2+Cz^2+J=0$ |
 | hyperboloid of one sheet | 单叶双曲面 | $Ax^2+By^2-Cz^2+J=0$ |
 | hyperboloid of two sheets | 双叶双曲面 | $Ax^2-By^2-Cz^2+J=0$ |
@@ -77,6 +77,7 @@ $$d = \frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}$$
 | elliptic cone | 椭圆锥面 | $Ax^2+By^2-Cz^2=0$ |
 
 -Graphs of Quadric Surfaces
+
 ![Graphs of Quadric Surfaces](graph/table1_10.6.png)
 
 # 10.7 矢量函数和空间曲线 VECTOR FUNCTIONS AND SPACE CURVES
@@ -125,3 +126,47 @@ $$\int r(t)dt = <\int f(t)dt,\int g(t)dt,\int h(t)dt>$$
 ## 法向量
 - $$\vec{N}(t) = \frac{\vec{T}'(t)}{|\vec{T}'(t)|}$$
 - $$\vec{B}(t) = \vec{T}(t)\times\vec{N}(t)$$
+
+# 10.9 应用 APPLICATIONS
+
+## 1. 速度和加速度
+
+- $$\vec{v}(t) = \vec{r}'(t)$$
+- $$\vec{a}(t) = \vec{v}'(t) = \vec{r}''(t)$$
+- $$\vec{a}(t) = a_T(t)\vec{T}(t) + a_N(t)\vec{N}(t)$$
+- $$\begin{cases} a_T(t) = \vec{a}(t)\cdot\vec{T}(t) \\ a_N(t) = \vec{a}(t)\cdot\vec{N}(t) \end{cases}$$
+
+# 11.2 极限和连续 LIMITS AND CONTINUITY
+
+# 11.3 偏导数 PARTIAL DERIVATIVES
+
+## 偏导数
+- $$f_x(x,y) = \lim_{h\to 0}\frac{f(x+h,y)-f(x,y)}{h}$$
+- $$f_y(x,y) = \lim_{h\to 0}\frac{f(x,y+h)-f(x,y)}{h}$$
+
+## 偏导数交换律
+- $$f_{xy}(x,y) = f_{yx}(x,y)$$
+
+## 高阶偏导数
+- $$f_{xy} = \frac{\partial}{\partial x}\frac{\partial f}{\partial y} = \frac{\partial^2f}{\partial y\partial x}$$
+
+## 偏微分方程
+- Laplace’s equation: $$\frac{\partial^2f}{\partial x^2} + \frac{\partial^2f}{\partial y^2} = 0$$
+- Wave equation: $$\frac{\partial^2f}{\partial x^2} - \frac{1}{c^2}\frac{\partial^2f}{\partial t^2} = 0$$
+- Heat equation: $$\frac{\partial^2f}{\partial x^2} - \frac{\partial^2f}{\partial t^2} = 0$$
+
+# 11.4 切平面和线性近似 TANGENT PLANES AND LINEAR APPROXIMATIONS
+
+## 切平面
+- $$z = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)$$
+- $$z - z_0 = f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)$$
+
+## 线性近似 linear approximation
+- $$f(x,y) \approx f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)$$
+
+## z的增量与z的微分
+- $$\Delta z = f_x(a + \Delta x,b + \Delta y) - f_x(a,b)$$
+- $$dz = f_x(a,b)dx + f_y(a,b)dy$$
+
+## 梯度 gradient
+- $$\nabla f(x,y) = <f_x(x,y),f_y(x,y)>$$

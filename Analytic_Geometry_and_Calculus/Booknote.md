@@ -6,6 +6,9 @@
 
 # 10.4 向量的叉积 THE CROSS PRODUCT
 
+## 自信数学人
+![自信数学人](graph/10.4.png)
+
 ## 向量平行的充要条件
 - $$a\times b = 0$$
 
@@ -104,12 +107,21 @@ $$\int r(t)dt = <\int f(t)dt,\int g(t)dt,\int h(t)dt>$$
 
 # 10.8 弧长和曲率 ARC LENGTH AND CURVATURE
 
-## 弧长
-- $$L = \int_a^b|\vec{r}'(t)|dt$$
-- arc length function: $$s(t) = \int_a^t|\vec{r}'(u)|du$$
-
 | English | Chinese | formula |
 | :-----: | :-----: | :-----: |
 | tangent vector | 切向量 | $\vec{r}'(t) = <x'(t),y'(t),z'(t)>$ |
 | tangent line | 切线 | $\vec{r}(t) = \vec{r}_0 + t\vec{r}'(t)$ |
 | unit tangent vector | 单位切向量 | $\vec{T}(t) = \frac{\vec{r}'(t)}{\|\vec{r}'(t)\|}$ |
+
+## 弧长
+- $$L = \int_a^b|\vec{r}'(t)|dt$$
+- arc length function: $$s(t) = \int_a^t|\vec{r}'(u)|du$$
+
+## 曲率
+- $$\kappa(t) = \frac{|T'(t)|}{|\vec{r}'(t)|}$$
+- $$\kappa(t) = \frac{|\vec{r}'(t)\times\vec{r}''(t)|}{|\vec{r}'(t)|^3}$$
+- $$\kappa(x) = \frac{|f''(x)|}{[1+(f'(x))^2]^{3/2}}$$
+
+## 法向量
+- $$\vec{N}(t) = \frac{\vec{T}'(t)}{|\vec{T}'(t)|}$$
+- $$\vec{B}(t) = \vec{T}(t)\times\vec{N}(t)$$

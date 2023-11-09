@@ -138,6 +138,10 @@ $$\int r(t)dt = <\int f(t)dt,\int g(t)dt,\int h(t)dt>$$
 
 # 11.2 极限和连续 LIMITS AND CONTINUITY
 
+![limit1](graph/defination_of_limit1_1.3.png)
+![limit2](graph/defination_of_limit2_1.3.png)
+![limit3](graph/defination_of_limit3_11.2.png)
+
 # 11.3 偏导数 PARTIAL DERIVATIVES
 
 ## 偏导数

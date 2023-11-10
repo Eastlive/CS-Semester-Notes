@@ -174,3 +174,11 @@ $$\int r(t)dt = <\int f(t)dt,\int g(t)dt,\int h(t)dt>$$
 
 ## 梯度 gradient
 - $$\nabla f(x,y) = <f_x(x,y),f_y(x,y)>$$
+
+# 11.5 多元链式法则 THE CHAIN RULE
+
+## 多元链式法则
+- $$\frac{dz}{dt} = \frac{\partial z}{\partial x}\frac{dx}{dt} + \frac{\partial z}{\partial y}\frac{dy}{dt}$$
+
+- For $z = f(x,y)$ and $x = g(s,t),y = h(s,t)$
+- $$\begin{cases}\frac{\partial z}{\partial s} = \frac{\partial z}{\partial x}\frac{\partial x}{\partial s} + \frac{\partial z}{\partial y}\frac{\partial y}{\partial s} \\ \frac{\partial z}{\partial t} = \frac{\partial z}{\partial x}\frac{\partial x}{\partial t} + \frac{\partial z}{\partial y}\frac{\partial y}{\partial t}\end{cases}$$

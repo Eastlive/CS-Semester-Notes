@@ -97,6 +97,54 @@
 
 当一个关系同时满足这三个条件时，它就形成了集合中元素的等价类。在这种情况下，任何两个具有相同关系的元素都可以认为是在某种意义上相同或等价的。
 
-- Q1
-  - 写出满足给定条件的等价关系
-  - 例子：x=y mod 3 解答：自反、对称、传递
+---
+
+## 关于[a]的说明
+
+设R是集合A上的等价关系。与A中的元素a相关的所有元素的集合称为a的等价类。 a 相对于 R 的等价类由 $[a]_R$ 表示。 当只考虑一个关系时，我们可以删除下标R并为该等价类写[a]。
+
+---
+
+## 只满足自反和对称的关系
+
+一个等价关系通常满足自反性（Reflexive）、对称性（Symmetric）和传递性（Transitive），但如果我们想要构造一个满足自反和对称但不满足传递性的关系，我们可以考虑集合中元素的某种非传递的相似性。
+
+### 例子：朋友关系
+
+假设有一个集合 \( A = \{a, b, c\} \)，代表三个人。我们定义一个关系 \( R \) 来表示“是朋友”，但以一种特定的方式：
+
+- **自反性（Reflexive）**：每个人都是自己的朋友。即对于所有 \( x \in A \)，都有 \( (x, x) \in R \)。
+  
+- **对称性（Symmetric）**：如果 \( a \) 是 \( b \) 的朋友，那么 \( b \) 是 \( a \) 的朋友。即如果 \( (a, b) \in R \) 那么 \( (b, a) \in R \)。
+
+现在，我们来定义具体的朋友关系：
+
+- \( a \) 是 \( b \) 的朋友，\( b \) 是 \( a \) 的朋友。
+- \( b \) 是 \( c \) 的朋友，\( c \) 是 \( b \) 的朋友。
+- 但 \( a \) 不是 \( c \) 的朋友，也就是 \( (a, c) \notin R \) 且 \( (c, a) \notin R \)。
+
+在这个例子中，我们看到关系 \( R \) 是自反的和对称的。但它不是传递的，因为尽管 \( a \) 是 \( b \) 的朋友，\( b \) 是 \( c \) 的朋友，但 \( a \) 不是 \( c \) 的朋友。因此，\((a, b) \in R\) 和 \((b, c) \in R\) 但 \((a, c) \notin R\)，违反了传递性。
+
+在现实世界中，朋友关系通常更复杂并且倾向于是传递的，但这个简化的模型提供了一个直观的例子来展示一个关系如何可能是自反的和对称的，但不是传递的。
+
+---
+
+- Q10
+   - Suppose that A is a nonempty set and R is an equivalence relation on A. Show that there is a function f with A as its domain such that (x, y) ∈ R if and only if f (x) = f (y).
+   - 证明：如果A是一个非空集合，R是A上的一个等价关系，那么存在一个函数f，它的定义域是A，使得(x, y) ∈ R当且仅当f(x) = f(y)。
+
+- Q15
+  - 证明一个关系是等价关系
+
+- Q35
+  - What is the congruence class $[n]_5$ (that is, the equivalence class of n with respect to congruence modulo 5)when n is
+   a) 2
+   b) 3?
+   c) 6?
+   d) −3?
+   - 单词： congruence 同余
+   - equivalence class 等价类
+   - modular arithmetic 模运算
+
+- Q47
+  - 证明一个关系是等价关系

@@ -35,11 +35,23 @@
 # 9.1
 
 - Q1
-- relation:
-  - reflexive(自反)
-  - symmetric(对称)
-  - transitive(传递)
-  - antisymmetric(反对称)
-  - irreflexive(反自反)
-  - asymmetric(非对称)
+  - 给定两个集合A，B，写出满足给定关系的集合R
+  - lcm(a,b) = a*b/gcd(a,b) 最小公倍数
+
+- Q3
+- 给定一个关系R，写出其是否满足给定的性质
+  - 自反
+  - 对称
+  - 传递
+  - 反对称
+  - relation:
+    - reflexive(自反)
+    - symmetric(对称)
+    - transitive(传递)
+    - antisymmetric(反对称)
+    - irreflexive(反自反)
+    - asymmetric(非对称)
+    - equivalence(等价)
+
+- Q6
 

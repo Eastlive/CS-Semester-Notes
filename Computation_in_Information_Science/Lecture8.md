@@ -1,0 +1,16 @@
+# 1 Random sampling (随机抽样)
+- population (总体)
+- sample (样本)
+- bias (偏差)
+- biased sample (有偏样本)：不是随机抽样
+- random sample (随机样本)：每个样本都有相同的机会被选中
+# 2 Scatter plots (散点图)
+# 3 Location measures (位置测量)
+# 4 Variability measures (变异测量)
+# 5 Box and whisker plots (箱线图)
+# 6 Correlation analysis (相关分析)
+# 7 Spearman’s correlation coefficient (斯皮尔曼相关系数)
+# 8 Shape measures (形状测量)
+# 9 Histograms (直方图)
+# 10 Quantile and probability plots (分位数和概率图)
+# 11 Maximum likelihood method (最大似然法)

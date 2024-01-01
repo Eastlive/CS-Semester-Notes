@@ -1,0 +1,7 @@
+# 1 Random number generator (随机数生成器 RNG)
+# 2 Pseudo-random number generator (伪随机数生成器 PRNG)
+# 3 Linear congruential generator (线性同余法 LCG)
+# 4 Applications of RNGs (随机数生成器的应用)
+# 5 Inverse transform method (反变换法)
+# 6 Characterization method (特征化法)
+# 7 Monte Carlo Simulation (蒙特卡洛模拟)

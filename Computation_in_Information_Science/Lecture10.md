@@ -1,0 +1,6 @@
+# 1 The SLR model (简单线性回归模型) (simple linear regression)
+# 2 The method of least squared (最小二乘法)
+# 3 Properties of the least-squared fit (最小二乘法的性质)
+# 4 Regression with R (R语言中的回归)
+# 5 Residual plots (残差图)
+# 6 Prediction intervals (预测区间)

@@ -32,6 +32,7 @@ $$\hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x}$$
 
 # 3 Properties of the least-squared fit (最小二乘法的性质)
 - 列表：
+
 | x | y | $\hat{y}$ | $\hat{e}$ |
 | - | - | - | - |
 | $x_1$ | $y_1$ | $\hat{y}_1$ | $\hat{e}_1$ |
